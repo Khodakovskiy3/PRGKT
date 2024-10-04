@@ -1,0 +1,292 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background: rgba(61, 126, 90, 1);
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.contact_header {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.7s ease;
+}
+
+.nav-item{
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+}
+
+/* START HEADER*/
+
+.box-container{
+    width: 100%;
+    height: 1080px;
+}
+
+.header{
+    margin-top: 59px;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation{
+    width: 316px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.language{
+    width: 61px;
+    height: 35px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.UK{
+    color: red;
+}
+
+.UA{
+    opacity: 0.61;
+}
+/* END HEADER*/
+
+/*END START PAGE*/
+.background-img{
+    margin-top: 188px;
+    margin-left: 331px;
+    position: relative;
+    display: inline-block;
+}
+
+.boss-text {
+    position: absolute;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 64px;
+    display: block;
+    justify-content: center;
+    top: 302px; /* Розташування по вертикалі */
+    left: 50%; /* Розташування по горизонталі */
+    transform: translate(-50%, -50%);
+}
+
+.mini-text{
+    width: 737px;
+    position: absolute;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    display: block;
+    justify-content: center;
+    top: 483px; /* Розташування по вертикалі */
+    left: 50%; /* Розташування по горизонталі */
+    transform: translate(-50%, -50%);
+}
+
+.btn_dive_in{
+    background-color: #D9D9D9;
+    width: 532px;
+    height: 104px;
+    position: absolute;
+    border-radius: 12px;
+    transform: translate(-50%, -50%);
+    top: 745px; /* Розташування по вертикалі */
+    left: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Тінь */
+    transition: transform 0.3s ease;
+}
+
+.btn_dive_in:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+    left: 50%;
+}
+
+.button{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    display: flex;
+    margin-top: 23px;
+    margin-left: 201px;
+}
+
+/*END BOSS PAGE*/
+
+/*END NEXT BOSS PAGE*/
+
+.next_box-page{
+    background-image: url("img/White_logo 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+}
+
+.boss-text-page{
+    /*padding-top: -61px;*/
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.mini_text-page{
+    display: flex;
+    justify-content: center;
+}
+
+.text_mini{
+    margin: 0px;
+    width: 909px;
+    color: #000;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-for-text{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 203px;
+    padding-bottom: 150px;
+
+
+}
+
+.skills-section{
+    width: 351.139px;
+}
+
+.learning-opportunities-section{
+    width: 351.139px;
+}
+
+.free-time-section{
+    width: 351.139px;
+}
+
+.main-text{
+    font-size: 34px;
+    color: black;
+}
+
+.skills-mini-text{
+    color: #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*END NEXT-BOX*/
+
+.box-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.box-container_3{
+    background-image: url("img/bg_img.png");
+    width: 1258px;
+    height: 498px;
+}
+.text-gen-3{
+    display: flex;
+    justify-content: center;
+}
+.text-general-3{
+    color: #FFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-min-3{
+    display: flex;
+    justify-content: center;
+}
+.text-mini-3{
+    width: 831px;
+    color: #FFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box-container{
+    width: 100%;
+    height: 1080px;
+}
+
+.footer{
+    margin-top: 212px;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fot-item{
+    margin-left: 5px;
+}
+
+.jar_logo a {
+    display: flex; /* Робимо контейнер гнучким для вирівнювання елементів */
+    align-items: center; /* Вирівнюємо зображення та текст по вертикалі */
+    text-decoration: none; /* Забираємо підкреслення з посилання */
+    color: #fff; /* Колір тексту, наприклад, білий */
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.sec-1{
+    width: 100%;
+    height: 100px;
+}
+
+.sec{
+    width: 100%;
+    height: 3px;
+}
